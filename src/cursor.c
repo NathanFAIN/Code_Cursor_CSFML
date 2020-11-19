@@ -19,7 +19,7 @@ Composantes à initialiser :
 - position (de base x = 0 et y = 0)
 - rectangle (de base height = 50 et width = 50)
 - sprite (utilise la fonction sfSprite_create)
-- texture (utilise la fonction sfTexture_createFromFile)
+- texture (utilise la fonction sfTexture_createFromFile et l'image "./resource/cursor.png")
 Autre fonctions utiles : sfSprite_setTexture, sfSprite_setPosition et sfSprite_setTextureRect.
 */
 cursor_t create_cursor(sfRenderWindow *window)
